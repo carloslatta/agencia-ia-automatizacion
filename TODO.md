@@ -8,7 +8,7 @@ Fuente de verdad: este archivo. El plan explica el porqué, este dice qué hacer
 ## URGENTE — Hoy o mañana
 
 - [ ] **`1.4`** Validación de formato de email, manejo de duplicados, ejecuciones fallidas
-- [ ] **`1.5`** Git: primer commit + repo público. Verificar que ningún secreto quede expuesto
+- [x] **`1.5`** Git: repo público `carloslatta/agencia-ia-automatizacion`, commit inicial, sin secretos expuestos
 - [ ] **`1.6`** n8n Academy `QS101 Quickstart` → certificado (3-5 h)
 - [ ] **`1.7`** Documentar el flujo en `entregables/semana-01-webhook-enrutador/`
 - [ ] **`1.8`** **Definir nicho** ← BLOQUEANTE. Nada comercial avanza sin esto

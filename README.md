@@ -29,7 +29,7 @@ Mi ventaja: la mayoría de gente que vende automatizaciones con IA sabe programa
 - [x] Webhook, Router, Filter, JSON, triggers vs actions
 - [x] Entregable: Webhook → Filter → Router → Sheets + Telegram + Gmail
 - [ ] Validación de email, duplicados, ejecuciones fallidas
-- [ ] Git: primer commit + repo público
+- [x] Git: repo público en `carloslatta/agencia-ia-automatizacion`, primer commit, sin secretos
 - [ ] n8n Academy `QS101` → certificado
 - [ ] **Definir nicho** ← bloqueante
 
