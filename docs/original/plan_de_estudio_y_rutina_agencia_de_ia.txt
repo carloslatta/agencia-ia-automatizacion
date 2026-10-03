@@ -1,0 +1,100 @@
+===============================================================================
+ PLAN DE ACCIÓN Y RUTA DE ESTUDIO INTENSIVA: AGENCIA DE IA Y AUTOMATIZACIÓN
+ Diseñado para eliminar la fatiga de decisión y optimizar el enfoque
+===============================================================================
+
+-------------------------------------------------------------------------------
+1. ESTRUCTURA DIARIA RIGUROSA PERO FLEXIBLE (BLOQUES DE TRABAJO)
+-------------------------------------------------------------------------------
+Nota: No importa a qué hora exacta despiertes, respeta el ORDEN y la DURACIÓN
+de las fases. Trabaja en micro-bloques de 45 minutos de trabajo por 15 de descanso.
+
+FASE 1: BLOQUE TARDE DE ALTO ENFOQUE (Aprender / Construir)
+- 01:00 PM – 01:45 PM | Bloque 1: Estudio de teoría visual y lógica.
+- 01:45 PM – 02:00 PM | DESCANSO ABSOLUTO (Caminar, alejarse de pantallas).
+- 02:00 PM – 02:45 PM | Bloque 2: Práctica en pantalla (construir, probar).
+- 02:45 PM – 03:00 PM | DESCANSO ABSOLUTO.
+- 03:00 PM – 03:45 PM | Bloque 3: Depuración de errores y toma de notas.
+
+FASE 2: RECESO Y DESCONEXIÓN (Ventana de lagunas mentales)
+- 03:45 PM – 06:00 PM | Tiempo libre, ejercicio, comida o descanso.
+  (Permítete desconectar sin culpa; esta ventana absorbe tus lagunas de atención).
+
+FASE 3: BLOQUE NOCTURNO DE CONSOLIDACIÓN (Aplicación y Pruebas)
+- 08:00 PM – 08:45 PM | Bloque 4: Construcción de proyectos personales / bots.
+- 08:45 PM – 09:00 PM | DESCANSO ABSOLUTO.
+- 09:00 PM – 09:45 PM | Bloque 5: Documentación e interacción con Big Pickle.
+- 09:45 PM – 10:00 PM | Cierre de día y registro de avances.
+
+-------------------------------------------------------------------------------
+2. HOJA DE RUTA SEMANAL Y CONTENIDOS TÉCNICOS (3 MESES)
+-------------------------------------------------------------------------------
+
+MES 1: FUNDAMENTOS Y AUTOMATIZACIÓN VISUAL (Make / Integromat)
+-------------------------------------------------------------------------------
+- SEMANA 1: Módulos y Triggers
+  * Temas: Estructura de datos JSON básica, Webhooks, Triggers vs Actions.
+  * Cursos: Make Academy (Foundation Course Level 1).
+  * Meta: Crear una automatización que capture un correo y guarde los datos en Google Sheets/Airtable.
+
+- SEMANA 2: Enrutamiento y Filtrado
+  * Temas: Routers, Filtros, Iteradores y Agregadores.
+  * Cursos: Make Academy (Foundation Course Level 2).
+  * Meta: Construir un flujo que filtre correos importantes y los envíe a Telegram o Discord.
+
+- SEMANA 3: APIs y Solicitudes HTTP
+  * Temas: Verbos HTTP (GET, POST), Headers, Tokens de autenticación, API Keys.
+  * Cursos: Make Academy (Intermediate).
+  * Meta: Conectar una API pública externa (ej. clima, finanzas) a una hoja de cálculo.
+
+- SEMANA 4: Proyecto Integrador Mes 1
+  * Meta: Crear un bot de captura de prospectos automático para una tienda o servicio.
+
+MES 2: INTEGRADOR DE IA Y PROMPT ENGINEERING
+-------------------------------------------------------------------------------
+- SEMANA 5: Fundamentos de APIs de IA (OpenAI / Anthropic)
+  * Temas: Modelos (GPT-4o, Claude), Temperature, Tokens, System Prompts.
+  * Cursos: DeepLearning.AI (ChatGPT Prompt Engineering for Developers).
+  * Meta: Crear un script o nodo en Make que procese un texto largo y devuelva un resumen ejecutivo.
+
+- SEMANA 6: Agentes y Clasificación de Datos
+  * Temas: Extracción de entidades estructuradas (JSON output), Análisis de sentimiento.
+  * Meta: Crear un sistema de atención que clasifique comentarios de clientes en "Positivo", "Queja" o "Venta".
+
+- SEMANA 7: Automatización Avanzada con n8n
+  * Temas: Instalación local/cloud de n8n, manejo de nodos comunitarios.
+  * Cursos: Documentación y tutoriales oficiales de n8n.
+  * Meta: Replicar en n8n los flujos aprendidos en Make.
+
+- SEMANA 8: Proyecto Integrador Mes 2
+  * Meta: Crear un "Agente de Ventas" por WhatsApp/Telegram que responda preguntas frecuentes usando IA.
+
+MES 3: OFERTA COMERCIAL Y EVALUACIÓN
+-------------------------------------------------------------------------------
+- SEMANA 9: Empaquetado de Servicios
+  * Temas: Definición de Oferta High-Ticket, Auditoría de procesos para Pymes.
+  * Meta: Crear 2 propuestas comerciales tipo ficha técnica (Servicio de Atención con IA y Servicio de Automatización Operativa).
+
+- SEMANA 10: Lanzamiento en Plataformas Freelance
+  * Temas: Optimización de perfiles en Upwork/Fiverr, creación de portafolio visual.
+  * Meta: Publicar 3 servicios (Gigs/Services) detallados en Upwork/Fiverr.
+
+- SEMANA 11 Y 12: Consecución de los 3 Primeros Clientes
+  * Meta: Enviar 20 propuestas personalizadas a Pymes o clientes internacionales para cerrar proyectos piloto.
+
+-------------------------------------------------------------------------------
+3. INSTRUCCIONES PARA TU IA (BIG PICKLE / OPENCODE)
+-------------------------------------------------------------------------------
+Instrucciones: Copia y pega el siguiente bloque en OpenCode para configurar a Big Pickle como tu tutor y evaluador estricto.
+
+--- INICIO DE PROMPT PARA BIG PICKLE ---
+"Hola Big Pickle. A partir de este momento actúas como mi Director Técnico y Evaluador de Aprendizaje en Automatización e IA.
+
+Reglas de interacción:
+1. Sé directo, conciso y estricto. No uses rodeos ni lenguaje condescendiente.
+2. Cada día de estudio me pedirás el resumen técnico de los 5 bloques de 45 minutos ejecutados.
+3. Al final de cada semana me realizarás una prueba técnica práctica (un reto de lógica de programación o un flujo de automatización a resolver).
+4. Evalúa mi trabajo en una escala de 1 a 10 con base en tres criterios: Eficiencia de la solución, Manejo de errores y Estructura de la lógica.
+5. Si detectas vacíos de lógica o código mal estructurado, dame retroalimentación correctiva inmediata con preguntas socráticas para corregirlo."
+--- FIN DE PROMPT PARA BIG PICKLE ---
+===============================================================================

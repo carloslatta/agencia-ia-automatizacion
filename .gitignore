@@ -1,0 +1,87 @@
+# ============================================================
+#  SECRETOS - NUNCA SUBIR A UN REPO PUBLICO
+# ============================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa
+id_ed25519
+secrets/
+credenciales/
+certs/
+
+# Credenciales embebidas en exportaciones de herramientas
+# n8n: los workflows exportados incluyen IDs de workspace y a veces credenciales
+n8n/workflows/
+n8n/*.json
+*.n8n.json
+# Make: los blueprints exportados traen estructura del escenario
+make/scenarios/
+*.blueprint.json
+
+# ============================================================
+#  DEPENDENCIAS
+# ============================================================
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.python-version
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ============================================================
+#  ARTEFACTOS DE AUTOMATIZACION
+# ============================================================
+# Ejecuciones y datos reales de clientes: nunca en git
+ejecuciones/
+logs/
+*.log
+datos/
+exports/
+/tmp/
+.cache/
+
+# Backups de n8n (contienen credenciales cifradas pero tambien estructura)
+backup*.sqlite
+*.sqlite3
+
+# ============================================================
+#  ARCHIVOS DE DISENO Y PESO (rama principal: texto)
+#  Los PSD/AI van en su propio repo o en releases, no aqui.
+# ============================================================
+*.psd
+*.ai
+*.psb
+*.indd
+*.sketch
+*.fig
+*.afdesign
+*.afphoto
+assets/*.psd
+assets/*.ai
+
+# PDFs y JPG solo si son capturas de Entregables (documentacion)
+# El resto no entra al repo
+*.pdf
+!assets/**/*.pdf
+!entregables/**/*.pdf
+
+# ============================================================
+#  SISTEMA
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
