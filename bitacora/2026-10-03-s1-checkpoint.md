@@ -19,7 +19,7 @@
 Exporta el mismo escenario con:
 - Filtro único entre Webhook y Router que valide email con @
 - Prevención de duplicados antes de "Add a Row" (Search in Google Sheets + filtro "Total number of bundles = 0")
-- (Bonus) validación mínima también para Telegram/Gmail o deja que el filtro central lo controle
+- (Bonus) validar case-insensitive: usa {{lower(1.email)}} tanto al buscar duplicados como al guardar. También arregla el typo "regisstro satisfactorio" en el email.
 
 ## Notas
 No es un error de ejecución, es uno de **diseño**. El primer intento está bien para aprender. Esto es lo que se arregla moviendo un solo módulo. 
